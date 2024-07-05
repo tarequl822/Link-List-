@@ -1,0 +1,95 @@
+# Linked-List
+#Doubly_linked_list
+
+# fallow this format for those tasks --------
+       "1.insert first 2.insert last 3.insert at "
+       "4.delete first 5.delete last 6.delete at "
+       "7.search 8.find max 9.find min 10.exit" 
+
+   #FORMAT        
+" #include<stdio.h>
+
+struct node *createNewNode(int x)
+{
+
+};
+
+void insertBeginning(int x)
+{
+
+}
+void insertLast(int x)
+{
+
+}
+
+void insertAt(int pos,int x)
+{
+
+}
+void deleteFirst()
+{
+
+}
+
+void deleteLast()
+{
+
+}
+void deleteAt(int pos)
+{
+
+}
+
+int search(int element){
+
+}
+
+int findMax(){
+
+}
+
+int findMin(){
+
+}
+void displayList()
+{
+
+}
+
+int main()
+{
+    int choice,key,pos;
+    printf("1.insert first 2.insert last 3.insert at\n");
+    printf("4.delete first 5.delete last 6.delete at "
+           "7.search 8.find max 9.find min 10.exit\n");
+    while(1){
+
+        printf("enter choice:");
+        scanf("%d",&choice);
+        if(choice==1){
+                //complete the code
+        }else if(choice==2){
+            printf("enter element:");
+
+        }else if(choice==3){
+
+        }else if(choice==4){
+
+        }else if(choice==5){
+
+        }else if(choice==6){
+
+        }else if(choice==7){
+
+        }else if(choice==8){
+
+        }else if(choice==9){
+
+        }else {
+            break;
+        }
+        displayList();
+    }
+}
+
